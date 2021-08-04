@@ -1,0 +1,4 @@
+IntelliSense for your programming language#
+Visual Studio Code IntelliSense is provided for JavaScript, TypeScript, JSON, HTML, CSS, SCSS,
+and Less out of the box. VS Code supports word based completions for any programming language 
+but can also be configured to have richer IntelliSense by installing a language extension.

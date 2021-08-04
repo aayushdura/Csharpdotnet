@@ -1,12 +1,16 @@
 ﻿using System;
-
+using fIO;
 namespace examdotnet
 {
     class Program
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
+            Filei fi = new Filei();
+
+            fi.fileio();
+
         }
     }
 }
