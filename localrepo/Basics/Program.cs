@@ -9,8 +9,8 @@ namespace examdotnet
             //Console.WriteLine("Hello World!");
             Filei fi = new Filei();
 
-            fi.fileio();
-
+            //fi.fileio();
+            fi.fileinfo();
         }
     }
 }
