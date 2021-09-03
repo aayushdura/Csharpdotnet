@@ -1,1 +1,27 @@
-<h1>All employee</h1>
+@model List<person>
+  
+<h1>All Employees...</h1>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col" >Name</th>
+      <th scope="col">address</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Salary</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var employee in Model)
+    {
+        <tr scope="row">
+            <td>@employee.Name</td>
+
+            <td>@employee.address</td>
+            
+            <td>@employee.Gender</td>
+            
+            <td>@employee.Salary</td>
+        </tr>
+    }
+  </tbody>
+</table>
